@@ -3,7 +3,7 @@ def tinh_diem_gpa(diem_so):
       return 4.0
     else:
 <<<<<<< HEAD
-      return round((diem_so/10)*3.5) 
+      return round((diem_so/10)*4,2) 
 =======
       return ((diem_so/10)*3.5) 
 print("Điểm GPA hệ số 4 là: ", tinh_diem_gpa(8.5))
